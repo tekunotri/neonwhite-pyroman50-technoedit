@@ -201,6 +201,7 @@
 		"enabled"									"1"
 		"xpos"										"0"
 		"ypos"										"c85"
+		"ypos_minmode"								"c30"
 		"wide"										"252"
 		"tall"										"32"
 		"priority"									"40"
@@ -212,6 +213,7 @@
 		"enabled"									"1"
 		"xpos"										"0"
 		"ypos"										"c110"
+		"ypos_minmode"								"c90"
 		"wide"										"252"
 		"tall"										"32"
 		"priority"									"40"
@@ -226,6 +228,7 @@
 		"enabled"									"1"
 		"xpos"										"0"
 		"ypos"										"c122"
+		"ypos_minmode"								"c85"
 		"wide"										"252"
 		"tall"										"32"
 		"priority"									"35"
@@ -1421,27 +1424,7 @@
 		"wide"										"f0"
 		"tall"										"f0"
 	}
-	"CMainTargetID"
-	{
-		"ypos"										"c85"
-		"ypos_minmode"								"c30"
-		"tall"										"32"
-		"tall_minmode"								"32"
-	}
-	"CSpectatorTargetID"
-	{
-		"ypos"										"c90"
-		"ypos_minmode"								"c90"
-		"tall"										"32"
-		"tall_minmode"								"32"
-	}
-	"CSecondaryTargetID"
-	{
-		"ypos"										"c122"
-		"ypos_minmode"								"c85"
-		"tall"										"32"
-		"tall_minmode"								"32"
-	}
+
 	"BuildingAnchor"
 	{
 		"ControlName"								"Panel"

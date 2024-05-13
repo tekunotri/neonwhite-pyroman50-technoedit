@@ -830,20 +830,20 @@
 	    "visible" "1"
 		"visible_minmode" "0"
         "enabled" "1"
-		"alpha"   "0"                                                                                                       "fieldName" "NWheartbuff""controlName" "ImagePanel""visible_minmode" "1""enabled_minmode" "1""xpos" "cs-7.515""ypos" "cs7.57""zpos" "-2""wide" "28""tall" "28""image" "replay/thumbnails/NWheartbuff""scaleimage" "1"
+		"alpha"   "0"                                                                                                       "fieldName" "NWheartbuff""controlName" "ImagePanel""enabled_minmode" "1""xpos" "cs-7.515""ypos" "cs7.57""zpos" "-2""wide" "28""tall" "28""image" "replay/thumbnails/NWheartbuff""scaleimage" "1"
     }
 	"NWheartbuff_f" // right heart buff
     {
 	    "visible" "1"
 		"visible_minmode" "0"
-        "enabled" "1"                                                                                                       "fieldName" "NWheartbuff_f""controlName" "ImagePanel""visible_minmode" "1""enabled_minmode" "1""xpos" "cs-6.48""ypos" "cs7.46""zpos" "-2""wide" "28""tall" "28"        	"image" "replay/thumbnails/NWheartbuff_f""scaleimage" "1"
+        "enabled" "1"                                                                                                       "fieldName" "NWheartbuff_f""controlName" "ImagePanel""enabled_minmode" "1""xpos" "cs-6.48""ypos" "cs7.46""zpos" "-2""wide" "28""tall" "28"        	"image" "replay/thumbnails/NWheartbuff_f""scaleimage" "1"
         "alpha" "0"
     }
 	"NWheartbuff_f_B" // left heart buff
     {
 	    "visible" "1"
 		"visible_minmode" "0"
-        "enabled" "1"                                                                                                       "fieldName" "NWheartbuff_f_B""controlName" "ImagePanel""visible_minmode" "1""enabled_minmode" "1""xpos" "cs-8.49""ypos" "cs7.46""zpos" "-2""wide" "28""tall" "28"        	"image" "replay/thumbnails/NWheartbuff_f""scaleimage" "1"
+        "enabled" "1"                                                                                                       "fieldName" "NWheartbuff_f_B""controlName" "ImagePanel""enabled_minmode" "1""xpos" "cs-8.49""ypos" "cs7.46""zpos" "-2""wide" "28""tall" "28"        	"image" "replay/thumbnails/NWheartbuff_f""scaleimage" "1"
         "alpha" "0"
     }
 	//==================================================================================================================================================

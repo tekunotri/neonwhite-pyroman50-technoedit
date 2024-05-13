@@ -8,4 +8,4 @@ startupmenu
 sv_unlockedchapters 99
 
 alias nw_minmode "cl_hud_minmode 1; crosshair 0"
-alias nw_normal  "cl_hud_minmode 0; crosshair 1"
+alias nw_normal  "cl_hud_minmode 0; crosshair 1; cl_crosshair_scale 38"
