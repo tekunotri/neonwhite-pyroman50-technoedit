@@ -108,13 +108,13 @@ event HudHealthDyingPulseStop
 
 	Animate	NWheart						Alpha		"255"								Linear 	0.0 	0.0
 	Animate	NWheart_f					Alpha		"255"								Linear 	0.0 	0.0
-	
+
 	Animate	NWheartempty2					Alpha		"0"								Linear 	0.0 	0.0
 	Animate	NWheartempty2_f					Alpha		"0"								Linear 	0.0 	0.0
 
 	Animate	white-normal					Alpha		"255"								Linear 	0.0 	0.0
 	Animate	white-low					Alpha		"0"								Linear 	0.0 	0.0
-	
+
 	Animate	PlayerStatusHealthDyingBG				Alpha		"0"									Linear	0.0		0.0
 
 	Animate HealthValue								FgColor		"255 255 255 255"						Linear	0.0		0.0

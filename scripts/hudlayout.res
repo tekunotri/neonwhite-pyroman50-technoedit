@@ -438,14 +438,22 @@
 		"RightJustify"								"1"
 
 		"TextFont"									"robo16shadow"
+		"textfont_minmode"							"helvetica11"
 
 		"TeamBlue"									"255 255 255 255"
+		"TeamBlue_minmode"							"m0reBlue"
+
 		"TeamRed"									"255 255 255 255"
+		"TeamRed_minmode"							"m0reRed"
+
 		"IconColor"									"0 0 0 255"
 		"LocalPlayerColor"							"255 255 255 255"
 
 		"BaseBackgroundColor"						"240 240 240 100"
+		"BaseBackgroundColor_minmode"				"TransparentLightBlack"
 		"LocalBackgroundColor"						"240 240 240 125"
+		"LocalBackgroundColor_minmode"				"240 240 240 200"
+
 	}
 	"HudVehicle"
 	{

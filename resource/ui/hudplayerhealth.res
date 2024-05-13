@@ -15,6 +15,33 @@
 		"HealthDeathWarning"						"0.49"
 		"HealthDeathWarningColor"					"255 0 0 255"
 	}
+	//==================================================================================================================================================
+	// STUFF FOR MINMODE
+	//==================================================================================================================================================
+		"Neutra"
+		{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"PlayerStatusHealthBonusImage"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"xpos_minmode"								"c-180"
+		"ypos_minmode"								"c55"
+		"zpos"										"-4"
+		"wide"										"56"
+		"tall"										"56"
+		"visible"									"0"
+		"visible_minmode"							"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/neutra"
+		"scaleImage"								"1"
+
+		"pin_to_sibling"							"HealthAnchor"
+		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
+
+	}
+
+
 
 	//==================================================================================================================================================
 	// HEALTH ANCHOR
@@ -135,7 +162,9 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"PlayerStatusAnchor"
 		"xpos"										"-75"
+		"xpos_minmode"								"-25"
 		"ypos"										"10"
+		"ypos_minmode"								"-35"
 		"wide"										"0"
 		"tall"										"80"
 		"visible"									"1"
@@ -697,18 +726,21 @@
     {
         "alpha" "255"                            	                                                                          "fieldName" "White-Normal" "controlName" "ImagePanel"  "xpos" "c-435" "ypos" "c30" "zpos" "-2" "wide" "350""tall" "350" "image" "replay/thumbnails/whitenormal" "scaleimage" "1"
     	"visible" "1"
+		"visible_minmode" "0"
         "enabled" "1"
 	}
 	"White-Low"
     {
 		"alpha" "0"
 		"visible" "1"
+		"visible_minmode" "0"
 		"enabled" "1"                                                                                                         "fieldName" "White-Low" "controlName" "ImagePanel" "xpos" "c-435" "ypos" "c30" "zpos" "-2" "wide" "350" "tall" "350" "image" "replay/thumbnails/whitelow" "scaleimage" "1"
     }
 	"White-Buff"
     {
 		"alpha" "0"
 		"visible" "1"
+		"visible_minmode" "0"
         "enabled" "1"                                                                                                         "fieldName" "White-Buff" "controlName" "ImagePanel" "xpos" "c-435" "ypos" "c30" "zpos" "-2" "wide" "350" "tall" "350" "image" "replay/thumbnails/whitebuff" "scaleimage" "1"
     }
 	//==================================================================================================================================================
@@ -717,31 +749,37 @@
 	 "NWwarning" //Warning
 	{
 		"visible"		"1"
+		"visible_minmode" "0"
 		"enabled"		"1"
 		"alpha"         "0"                                                                                                   "fieldName" "NWwarning""ControlName""ImagePanel""xpos""c-235""ypos""c135""zpos""3""wide""80""tall""80""image""replay/thumbnails/NWwarning""scaleImage""1"
 	}
 	"NWhpstreak"//Crack
     {
-	    "visible" "1"
-        "enabled" "1"
+		"visible" "1"
+		"visible_minmode" "0"
+		"enabled" "1"
 		"alpha" "255"                                                                                                         "fieldName" "NWhpstreak" "controlName" "ImagePanel" "xpos" "c-365" "ypos" "c154" "zpos" "-2" "wide" "350" "tall" "140" "image" "replay/thumbnails/NWhpstreak" "scaleimage" "1"
     }
     "NWheartempty" // Middle heart bg
     {
         "visible" "1"
+		"visible_minmode" "0"
         "enabled" "1"                                                                                                         "fieldName" "NWheartempty" "controlName" "ImagePanel""xpos" "cs-7.90""ypos" "cs7.86""zpos" "-2""wide" "27""tall" "27""image" "replay/thumbnails/NWheartempty""scaleimage" "1"
-	    "alpha" "255"
+		"alpha" "255"
     }
 	"NWheartempty_f" // Right heart bg
     {
         "visible" "1"                                                                                                         "fieldName" "NWheartempty_f""controlName" "ImagePanel""xpos" "cs-6.82""ypos" "cs7.78""zpos" "-2""wide" "27""tall" "27""image" "replay/thumbnails/NWheartempty_f""scaleimage" "1"
         "enabled" "1"
+		"visible_minmode" "0"
 		"alpha" "255"
     }
 	"NWheartempty_f_B" // Left heart bg
     {
         "visible" "1"
-        "enabled" "1"                                                                                                         "fieldName" "NWheartempty_f_B""controlName" "ImagePanel""xpos" "cs-8.93""ypos" "cs7.788""zpos" "-2""wide" "27""tall" "27""image" "replay/thumbnails/NWheartempty_f""scaleimage" "1"
+        "enabled" "1"
+		"visible_minmode" "0"
+																															"fieldName" "NWheartempty_f_B""controlName" "ImagePanel""xpos" "cs-8.93""ypos" "cs7.788""zpos" "-2""wide" "27""tall" "27""image" "replay/thumbnails/NWheartempty_f""scaleimage" "1"
 		"alpha" "255"
     }
 	//==================================================================================================================================================
@@ -749,46 +787,62 @@
 	//==================================================================================================================================================
 	"NWheartempty2" // middle heart duplicate bg for low health
     {
-	                                                                                                                          "fieldName" "NWheartempty2""controlName" "ImagePanel""visible" "1""enabled" "1""visible_minmode" "1""enabled_minmode" "1""xpos" "cs-7.8""ypos" "cs7.88""zpos" "-2""wide" "27""tall" "27""alpha" "0""image" "replay/thumbnails/NWheartempty""scaleimage" "1"
+	"fieldName" "NWheartempty2"
+	"controlName" "ImagePanel"
+	"visible" "1"
+	"enabled" "1"
+	"visible_minmode" "0"
+	"enabled_minmode" "1"
+	"xpos" "cs-7.8"
+	"ypos" "cs7.88"
+	"zpos" "-2"
+	"wide" "27"
+	"tall" "27"
+	"alpha" "0"
+	"image" "replay/thumbnails/NWheartempty"
+	"scaleimage" "1"
     }
 	"NWheartempty2_f" // right heart duplicate bg for low health
     {
-                                                                                                                              "fieldName" "NWheartempty2_f""controlName" "ImagePanel""visible" "0""enabled" "1""visible_minmode" "1""enabled_minmode" "1""xpos" "cs-6.73""ypos" "cs7.761""zpos" "-2""wide" "27""tall" "27""alpha" "0""image" "replay/thumbnails/NWheartempty_f""scaleimage" "1"
+    "fieldName" "NWheartempty2_f""controlName" "ImagePanel""visible" "0""enabled" "1""visible_minmode" "0""enabled_minmode" "1""xpos" "cs-6.73""ypos" "cs7.761""zpos" "-2""wide" "27""tall" "27""alpha" "0""image" "replay/thumbnails/NWheartempty_f""scaleimage" "1"
     }
 	"NWheartempty2_f_B" // left heart duplicate bg for low health
     {
-                                                                                                                              "fieldName" "NWheartempty2_f_B""controlName" "ImagePanel""visible" "1""enabled" "1""visible_minmode" "1""enabled_minmode" "1""xpos" "cs-8.83""ypos" "cs7.77""zpos" "-2""wide" "27""tall" "27""alpha" "0""image" "replay/thumbnails/NWheartempty_f""scaleimage" "1"
+                                                                                                                              "fieldName" "NWheartempty2_f_B""controlName" "ImagePanel""visible" "1""enabled" "1""visible_minmode" "0""enabled_minmode" "1""xpos" "cs-8.83""ypos" "cs7.77""zpos" "-2""wide" "27""tall" "27""alpha" "0""image" "replay/thumbnails/NWheartempty_f""scaleimage" "1"
     }
     //==================================================================================================================================================
 	// NW - Hearts
 	//==================================================================================================================================================
 	"NWheart" // middle heart
     {
-        	                                                                                                                 "fieldName" "NWheart""controlName" "ImagePanel""visible" "1""enabled" "1""visible_minmode" "1""enabled_minmode" "1""xpos" "cs-7.8""ypos" "cs7.88""zpos" "-2""wide" "27""tall" "27""alpha" "255""image" "replay/thumbnails/NWheart""scaleimage" "1"
+        	                                                                                                                 "fieldName" "NWheart""controlName" "ImagePanel""visible" "1""enabled" "1""visible_minmode" "0""enabled_minmode" "1""xpos" "cs-7.8""ypos" "cs7.88""zpos" "-2""wide" "27""tall" "27""alpha" "255""image" "replay/thumbnails/NWheart""scaleimage" "1"
     }
 	"NWheart_f" // right heart
     {
-	                                                                                                                         "fieldName" "NWheart_f""controlName" "ImagePanel""visible" "1""enabled" "1""visible_minmode" "1""enabled_minmode" "1""xpos" "cs-6.72""ypos" "cs7.76""zpos" "-2""wide" "27""tall" "27""alpha" "255""image" "replay/thumbnails/NWheart_f""scaleimage" "1"
+	                                                                                                                         "fieldName" "NWheart_f""controlName" "ImagePanel""visible" "1""enabled" "1""visible_minmode" "0""enabled_minmode" "1""xpos" "cs-6.72""ypos" "cs7.76""zpos" "-2""wide" "27""tall" "27""alpha" "255""image" "replay/thumbnails/NWheart_f""scaleimage" "1"
     }
 	"NWheart_f_B" // left heart
     {
-	                                                                                                                         "fieldName" "NWheart_f_B""controlName" "ImagePanel""visible" "1""enabled" "1""visible_minmode" "1""enabled_minmode" "1""xpos" "cs-8.83""ypos" "cs7.76""zpos" "-2""wide" "27""tall" "27""alpha" "255""image" "replay/thumbnails/NWheart_f""scaleimage" "1"
+	                                                                                                                         "fieldName" "NWheart_f_B""controlName" "ImagePanel""visible" "1""enabled" "1""visible_minmode" "0""enabled_minmode" "1""xpos" "cs-8.83""ypos" "cs7.76""zpos" "-2""wide" "27""tall" "27""alpha" "255""image" "replay/thumbnails/NWheart_f""scaleimage" "1"
     }
 	"NWheartbuff" // middle heart buff
     {
 	    "visible" "1"
+		"visible_minmode" "0"
         "enabled" "1"
 		"alpha"   "0"                                                                                                       "fieldName" "NWheartbuff""controlName" "ImagePanel""visible_minmode" "1""enabled_minmode" "1""xpos" "cs-7.515""ypos" "cs7.57""zpos" "-2""wide" "28""tall" "28""image" "replay/thumbnails/NWheartbuff""scaleimage" "1"
     }
 	"NWheartbuff_f" // right heart buff
     {
 	    "visible" "1"
+		"visible_minmode" "0"
         "enabled" "1"                                                                                                       "fieldName" "NWheartbuff_f""controlName" "ImagePanel""visible_minmode" "1""enabled_minmode" "1""xpos" "cs-6.48""ypos" "cs7.46""zpos" "-2""wide" "28""tall" "28"        	"image" "replay/thumbnails/NWheartbuff_f""scaleimage" "1"
         "alpha" "0"
     }
 	"NWheartbuff_f_B" // left heart buff
     {
 	    "visible" "1"
+		"visible_minmode" "0"
         "enabled" "1"                                                                                                       "fieldName" "NWheartbuff_f_B""controlName" "ImagePanel""visible_minmode" "1""enabled_minmode" "1""xpos" "cs-8.49""ypos" "cs7.46""zpos" "-2""wide" "28""tall" "28"        	"image" "replay/thumbnails/NWheartbuff_f""scaleimage" "1"
         "alpha" "0"
     }

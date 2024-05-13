@@ -96,4 +96,25 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
+	"mumei"
+	{
+		"controlName"								"ImagePanel"
+		"fieldName"									"mumei"
+		"xpos"										"-20"
+		"ypos"										"33"
+		"zpos"										"1"
+		"wide"										"40"
+		"tall"										"40"
+		"visible"									"0"
+		"visible_minmode"							"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"image"										"replay/thumbnails/mumeishakefast"
+		"scaleimage"								"1"
+		"drawcolor"									"White"
+
+		"pin_to_sibling"							"Speed_Anchor"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+	}
 }

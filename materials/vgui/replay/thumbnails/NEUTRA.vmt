@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui/replay/thumbnails/NEUTRA.vtf"
+	"$basetexture" "vgui/replay/thumbnails/NEUTRA"
 	"$translucent" 1
 	"$vertexcolor" 1
 	"$no_fullbright" 1
