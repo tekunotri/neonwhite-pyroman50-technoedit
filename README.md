@@ -1,7 +1,7 @@
-![logo](https://i.imgur.com/HVyxIC3.png)
+uses russ' pyroman50 neon white hud recreation as base, i only modified `cl_hud_minmode 1`
 
-<div align="center">
+cl_crosshair_scale 38 for aligned cards on minmode 0
 
-This branch features a "stripped down" version of m0rehud, this version doesn't include any customizations or extra edits, this is effectively a 2011 m0rehud updated to work with the current TF2 updates. This version won't be updated as often as I intend to update it only for bug fixes and TF2 updates (not many nowadays uh)
+use nw_minmode to swap to minmode
 
-</div>
+nw_normal to go back to normal
