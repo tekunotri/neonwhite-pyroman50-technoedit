@@ -6,4 +6,4 @@ use `nw_minmode` to swap to minmode
 
 `nw_normal` to go back to normal
 
-![](https://i.pinimg.com/originals/92/24/de/9224de6bc2005989ba21e8edd4f13576.gif)
+![funny gif](https://i.imgur.com/JGLzo5d.gif)
