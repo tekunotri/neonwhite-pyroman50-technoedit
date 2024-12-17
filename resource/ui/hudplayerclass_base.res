@@ -125,6 +125,222 @@
 
 
 	//==================================================================================================================================================
+	// IMAGES
+	//==================================================================================================================================================
+
+
+	"mumei"
+	{
+		"controlName"								"ImagePanel"
+		"fieldName"									"mumei"
+		"xpos"										"c385"
+		"ypos"										"c168"
+		"zpos"										"1"
+		"wide"										"40"
+		"tall"										"40"
+		"visible"									"0"
+		"visible_minmode"							"0"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"image"										"replay/thumbnails/mumeishakefast"
+		"scaleimage"								"1"
+		"drawcolor"									"White"
+	}
+	"blackflames" //Killstreak
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"blackflames"
+		"xpos"										"cs-0.5"
+		"ypos"										"rs0.8"
+		"zpos"										"-3"
+		"wide"										"f0"
+		"tall"										"64"
+		"visible"									"1"
+		"visible_minmode"							"0"
+		"enabled"									"1"
+		"scaleImage"								"1"
+		"image"										"replay/thumbnails/blackflames"
+		"alpha"                                     "255"
+	}
+	"spamtonpat"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"spamtonpat"
+		"xpos"										"-10"
+		"ypos"	"rs1"
+		"wide"	"64"
+		"tall"	"64"
+		"visible"	"0"
+		"visible_minmode" "0"
+		"enabled"	"1"
+		"scaleImage"	"1"
+		"image"	"replay/thumbnails/spamtonpat"
+		"alpha"	"255"
+	}
+	"mooch"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"mooch"
+		"xpos"										"rs1-2"
+		"ypos"	"r52"
+		"wide"	"64"
+		"tall"	"64"
+		"visible"	"0"
+		"visible_minmode" "0"
+		"enabled"	"1"
+		"scaleImage"	"1"
+		"image"	"replay/thumbnails/mooch"
+		"alpha"	"255"
+	}
+	"Target"
+	{
+		"visible"			"1"
+		"enabled"			"1"
+		"controlName"		"ImagePanel"
+		"fieldName"			"Target"
+		"zpos"				"-100"
+		"xpos"				"cs-0.5"
+		"ypos"				"cs-0.5"
+		"wide"				"26"
+		"tall"				"26"
+		"image"				"replay/thumbnails/target2"
+		"scaleImage"		"1"
+	}
+	"NWb" //Sides
+    {
+	"controlName" "ImagePanel"
+	"fieldName" "NWb"
+	"visible" "1"
+	"enabled" "1"
+	"visible_minmode" "0"
+	"enabled_minmode" "1"
+	"xpos" "c-423"
+	"ypos" "c90"
+	"zpos" "-2"
+	"wide" "140"
+	"tall" "140"
+	"alpha" "255"
+	"image" "replay/thumbnails/NWb"
+	"scaleimage" "1"
+    }
+	"BlackBar"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"BlackBar"
+		"xpos"										"c200"
+		"ypos"										"c91"
+		"zpos"										"7"
+		"wide"										"80"
+		"tall"										"84"
+		"visible"									"1"
+		"visible_minmode"							"0"
+		"enabled"									"1"
+		"scaleImage"								"1"
+		"image"										"replay/thumbnails/underline"
+	}
+	// v2
+	"niko"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"niko"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"xpos_minmode"									"c369"
+		"ypos_minmode"									"c182"
+		"zpos"										"-4"
+		"wide"										"56"
+		"tall"										"56"
+		"visible"									"0"
+		"visible_minmode"								"0"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/niko"
+		"scaleImage"									"1"
+		"alpha"										"255"
+	}
+	"nikohurt"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"nikohurt"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"xpos_minmode"									"c369"
+		"ypos_minmode"									"c182"
+		"zpos"										"-3"
+		"wide"										"56"
+		"tall"										"56"
+		"visible"									"0"
+		"visible_minmode"								"0"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/nikohurt"
+		"scaleImage"									"1"
+		"alpha"										"255"
+	}
+	"nikobuff"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"nikobuff"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"xpos_minmode"									"c369"
+		"ypos_minmode"									"c182"
+		"zpos"										"-2"
+		"wide"										"56"
+		"tall"										"56"
+		"visible"									"0"
+		"visible_minmode"								"0"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/nikobuff"
+		"scaleImage"									"1"
+		"alpha"										"255"
+	}
+
+	"perfectheart"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"perfectheart"
+		"xpos"										"-10"
+		"ypos"	"rs0.95"
+		"wide"	"128"
+		"tall"	"128"
+		"visible"	"0"
+		"visible_minmode" "0"
+		"enabled"	"1"
+		"scaleImage"	"1"
+		"image"	"replay/thumbnails/perfectheart"
+		"alpha"	"255"
+	}
+	"perfectheart_hurt"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"perfectheart_hurt"
+		"xpos"										"-10"
+		"ypos"	"rs0.95"
+		"wide"	"128"
+		"tall"	"128"
+		"visible"	"0"
+		"visible_minmode" "0"
+		"enabled"	"1"
+		"scaleImage"	"1"
+		"image"	"replay/thumbnails/perfectheart_hurt"
+		"alpha"	"255"
+	}
+	"Target"
+	{
+		"visible"			"1"
+		"enabled"			"1"
+		"controlName"		"ImagePanel"
+		"fieldName"			"Target"
+		"zpos"				"-100"
+		"xpos"				"cs-0.5"
+		"ypos"				"cs-0.5"
+		"wide"				"26"
+		"tall"				"26"
+		"image"				"replay/thumbnails/target2"
+		"scaleImage"		"1"
+	}
+
+
+	//==================================================================================================================================================
 	// REMOVED ELEMENTS
 	//==================================================================================================================================================
 

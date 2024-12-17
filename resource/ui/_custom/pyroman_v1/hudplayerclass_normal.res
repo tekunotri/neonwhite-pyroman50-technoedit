@@ -1,116 +1,6 @@
-#base "speedometer.res"
 
 "resource/ui/customizations/hudplayerclass_normal.res"
 {
-	"mumei"
-	{
-		"controlName"								"ImagePanel"
-		"fieldName"									"mumei"
-		"xpos"										"c385"
-		"ypos"										"c168"
-		"zpos"										"1"
-		"wide"										"40"
-		"tall"										"40"
-		"visible"									"0"
-		"visible_minmode"							"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"image"										"replay/thumbnails/mumeishakefast"
-		"scaleimage"								"1"
-		"drawcolor"									"White"
-	}
-	"blackflames" //Killstreak
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"blackflames"
-		"xpos"										"cs-0.5"
-		"ypos"										"rs0.8"
-		"zpos"										"-3"
-		"wide"										"f0"
-		"tall"										"64"
-		"visible"									"1"
-		"visible_minmode"							"0"
-		"enabled"									"1"
-		"scaleImage"								"1"
-		"image"										"replay/thumbnails/blackflames"
-		"alpha"                                     "255"
-	}
-	"spamtonpat"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"spamtonpat"
-		"xpos"										"-10"
-		"ypos"	"rs1"
-		"wide"	"64"
-		"tall"	"64"
-		"visible"	"0"
-		"visible_minmode" "1"
-		"enabled"	"1"
-		"scaleImage"	"1"
-		"image"	"replay/thumbnails/spamtonpat"
-		"alpha"	"255"
-	}
-	"mooch"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"mooch"
-		"xpos"										"rs1-2"
-		"ypos"	"r52"
-		"wide"	"64"
-		"tall"	"64"
-		"visible"	"0"
-		"visible_minmode" "1"
-		"enabled"	"1"
-		"scaleImage"	"1"
-		"image"	"replay/thumbnails/mooch"
-		"alpha"	"255"
-	}
-	"Target"
-	{
-		"visible"			"1"
-		"enabled"			"1"
-		"controlName"		"ImagePanel"
-		"fieldName"			"Target"
-		"zpos"				"-100"
-		"xpos"				"cs-0.5"
-		"ypos"				"cs-0.5"
-		"wide"				"26"
-		"tall"				"26"
-		"image"				"replay/thumbnails/target2"
-		"scaleImage"		"1"
-	}
-	"NWb" //Sides
-    {
-	"controlName" "ImagePanel"
-	"fieldName" "NWb"
-	"visible" "1"
-	"enabled" "1"
-	"visible_minmode" "0"
-	"enabled_minmode" "1"
-	"xpos" "c-423"
-	"ypos" "c90"
-	"zpos" "-2"
-	"wide" "140"
-	"tall" "140"
-	"alpha" "255"
-	"image" "replay/thumbnails/NWb"
-	"scaleimage" "1"
-    }
-	"BlackBar"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"BlackBar"
-		"xpos"										"c200"
-		"ypos"										"c91"
-		"zpos"										"7"
-		"wide"										"80"
-		"tall"										"84"
-		"visible"									"1"
-		"visible_minmode"							"0"
-		"enabled"									"1"
-		"scaleImage"								"1"
-		"image"										"replay/thumbnails/underline"
-	}
 	"HudPlayerClass"
 	{
 		"ControlName"								"EditablePanel"
@@ -233,7 +123,42 @@
 		}
 	}
 
-
+	//==================================================================================================================================================
+	// CUSTOMIZATION-SPECIFIC ELEMENT TOGGLES DO NOT TOUCH -TECHNO!!!!!!
+	//==================================================================================================================================================
+	"spamtonpat"
+	{
+		"visible_minmode" "1"
+	}
+	"niko"
+	{
+		"zpos"			"-3"
+		"visible_minmode"								"1"
+	}
+	"nikobuff"
+	{
+		"zpos"			"-3"
+		"visible_minmode"								"0"
+	}
+	"nikohurt"
+	{
+		"zpos"			"-3"
+		"visible_minmode"								"0"
+	}
+	"mumei"
+	{
+		"visible_minmode"								"1"
+		"xpos" 	"cs-0.5"
+		"ypos"	"c88"
+	}
+	"perfectheart"
+	{
+		"visible_minmode"								"0"
+	}
+	"perfectheart_hurt"
+	{
+		"visible_minmode"								"0"
+	}
 
 	//==================================================================================================================================================
 	// REMOVED ELEMENTS

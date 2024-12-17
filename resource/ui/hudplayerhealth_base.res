@@ -18,10 +18,10 @@
 	//==================================================================================================================================================
 	// STUFF FOR MINMODE
 	//==================================================================================================================================================
-		"Neutra"
-		{
+	"Neutra"
+	{
 		"ControlName"								"ImagePanel"
-		"fieldName"									"PlayerStatusHealthBonusImage"
+		"fieldName"									"Neutra"
 		"xpos"										"9999"
 		"ypos"										"9999"
 		"xpos_minmode"								"c-180"
@@ -30,17 +30,38 @@
 		"wide"										"56"
 		"tall"										"56"
 		"visible"									"0"
-		"visible_minmode"							"1"
+		"visible_minmode"							"0"
 		"enabled"									"1"
 		"image"										"replay/thumbnails/neutra"
 		"scaleImage"								"1"
-
+		"alpha"										"255"
 		"pin_to_sibling"							"HealthAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 
 	}
+	"neutralow"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"neutralow"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"xpos_minmode"								"c-184"
+		"ypos_minmode"								"c55"
+		"zpos"										"-4"
+		"wide"										"56"
+		"tall"										"56"
+		"visible"									"0"
+		"visible_minmode"							"0"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/neutralow"
+		"scaleImage"								"1"
+		"alpha"										"0"
+		"pin_to_sibling"							"HealthAnchor"
+		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 
+	}
 
 
 	//==================================================================================================================================================

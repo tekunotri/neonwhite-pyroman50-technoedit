@@ -1054,9 +1054,8 @@
 			"5"
 			{
 				"name"										"Surface-Medium"
-				"tall"										"32"
+				"tall"										"9"
 				"range"										"0x0000 0x017F"
-				"yres"										"1200 6000"
 				"antialias"									"1"
 			}
 			"6"
@@ -1131,10 +1130,9 @@
 			"5"
 			{
 				"name"										"Verdana"
-				"tall"										"22"
+				"tall"										"9"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
-				"yres"										"1200 6000"
 				"antialias"									"1"
 			}
 			"6"
@@ -1184,10 +1182,9 @@
 			"5"
 			{
 				"name"										"Verdana"
-				"tall"										"16"
+				"tall"										"9"
 				"weight"									"0"
 				"range"										"0x0000 0x017F"
-				"yres"										"1200 6000"
 				"antialias"									"1"
 			}
 		}
@@ -1230,10 +1227,9 @@
 			"5"
 			{
 				"name"										"Verdana"
-				"tall"										"30"
+				"tall"										"18"
 				"weight"									"900"
 				"range"										"0x0000 0x017F"
-				"yres"										"1200 6000"
 				"antialias"									"1"
 			}
 			"6"
@@ -1307,9 +1303,8 @@
 			"5"
 			{
 				"name"										"Verdana"
-				"tall"										"24"
+				"tall"										"12"
 				"weight"									"700"
-				"yres"										"1200 10000"
 			}
 		}
 		"HudFontGiant"
@@ -1353,11 +1348,10 @@
 			"5"
 			{
 				"name"										"TF2"
-				"tall"										"52"
+				"tall"										"24"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
-				"yres"										"1200 10000"
 			}
 		}
 		"HudFontGiantBold"
@@ -1432,6 +1426,15 @@
 			{
 				"name"										"TF2 Secondary"
 				"tall"										"24"
+				"weight"									"500"
+				"yres"										"1 1199"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+			"2"
+			{
+				"name"										"TF2 Secondary"
+				"tall"										"10"
 				"weight"									"500"
 				"additive"									"0"
 				"antialias"									"1"
